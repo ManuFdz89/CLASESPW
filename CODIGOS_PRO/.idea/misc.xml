@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DAM/T7/Flujos/pom.xml" />
+        <option value="$PROJECT_DIR$/DAM/T7/Ficheros/pom.xml" />
+        <option value="$PROJECT_DIR$/DAM/T7/LecturaJSON/pom.xml" />
+        <option value="$PROJECT_DIR$/DAM/T8/TiendaAPP/pom.xml" />
+        <option value="$PROJECT_DIR$/DAW/T7/Ficheros/pom.xml" />
+        <option value="$PROJECT_DIR$/DAW/T7/LecturaJSON/pom.xml" />
+        <option value="$PROJECT_DIR$/DAW/T8/TiendaAPP/pom.xml" />
+        <option value="$PROJECT_DIR$/DAW/T9/TiendaBaseDatos/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

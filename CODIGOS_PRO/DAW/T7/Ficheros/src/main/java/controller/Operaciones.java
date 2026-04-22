@@ -173,7 +173,7 @@ public class Operaciones {
                 file.createNewFile();
                 printWriter = new PrintWriter(new FileWriter(file, true));
                 printWriter.println("nombre,apellido,dni");
-                // escribe el usuario //TODO el primero si no existe????
+                // escribe el usuario TODO el primero si no existe????
                 exportarUsuario(usuario);
             } else {
                 printWriter = new PrintWriter(new FileWriter(file, true));

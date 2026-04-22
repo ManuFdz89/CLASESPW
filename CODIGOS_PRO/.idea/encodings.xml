@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DAM/T7/Ficheros/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T7/Ficheros/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T7/Flujos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T7/Flujos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T7/LecturaJSON/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T7/LecturaJSON/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T8/TiendaAPP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAM/T8/TiendaAPP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T7/Ficheros/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T7/Ficheros/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T7/LecturaJSON/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T7/LecturaJSON/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T8/TiendaAPP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T8/TiendaAPP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T9/TiendaBaseDatos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DAW/T9/TiendaBaseDatos/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
