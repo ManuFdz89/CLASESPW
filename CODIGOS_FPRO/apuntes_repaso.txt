@@ -1,0 +1,29 @@
+- Clases: model de los futuros objetos, donde nos encontramos con metodos, constructores, atributos
+
+- Paquetes: los paquetes organizan el proyecto ademas de poder estructurar los accesos mediante modificadores
+			cuando una clase se define dentro de un paquete, si sus elementos son protected, solo aquellas clases que estan dentro del mismo paquete podrán accederlos
+
+			los paquetes tipicos son
+				model: clases objeto, POJO, que representan el dato a trabajar en el proyecto
+				view : clase que representan la parte grafica de la app, por ejemplo menus -> nosotros directamente en el main
+				controller: clase que representa la parte logica de la app
+				MVC	 
+				exceptions
+				utils
+				database
+				enviroments
+
+- ArrayList: Una coleccion dinamica de elementos tipados. Para acceder se utiliza la posicion, lo que indica que la lista es indexada
+			Para poder agregar elementos. add(elemento)
+			para poder obtener elementos. get(position)
+			prar eliminar un elemento. remove(posicion) remove(elemento)
+			para obtener el tamaño. size()
+			para recorrer -> for foreach
+
+- HashMap: Una coleccion de datos no indexada, se guarda un par clave valor
+			para poder guardar un valor -> put(key, value)
+			para poder obtener un valoer -> get(key)
+			para poder eliminar un valor -> delete(key) delete(elemento)
+			para poder sacar el tamaño -> size
+			para recorrer -> keys() -> obten las claves las recorres y accede a cada valor
+							 values() -> obten los valores los recorres
