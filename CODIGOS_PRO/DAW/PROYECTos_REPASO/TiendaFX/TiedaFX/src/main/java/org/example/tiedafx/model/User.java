@@ -20,4 +20,12 @@ public class User {
         this.idProfile = idProfile;
         this.cash = cash;
     }
+
+    public User(int id, String name, String mail, int idProfile, int cash) {
+        this.id = id;
+        this.name = name;
+        this.mail = mail;
+        this.idProfile = idProfile;
+        this.cash = cash;
+    }
 }

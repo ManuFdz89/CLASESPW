@@ -3,16 +3,20 @@ module org.example.tiedafx {
     requires javafx.fxml;
     requires static lombok;
     requires java.sql;
+    requires java.desktop;
+    requires java.net.http;
+    requires org.json;
+    requires com.google.gson;
 
 
     opens org.example.tiedafx to javafx.fxml;
     exports org.example.tiedafx;
     exports org.example.tiedafx.controller;
-    opens org.example.tiedafx.controller to javafx.fxml;
+    opens org.example.tiedafx.controller to javafx.fxml, org.json, com.google.gson;
     opens org.example.tiedafx.dao to java.sql;
     exports org.example.tiedafx.dao;
 
-    opens org.example.tiedafx.model to java.sql;
+    opens org.example.tiedafx.model to java.sql,org.json, com.google.gson;
     exports org.example.tiedafx.model;
 
     opens org.example.tiedafx.database to java.sql;
