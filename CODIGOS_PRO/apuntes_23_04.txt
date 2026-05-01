@@ -8,6 +8,12 @@ JavaFX ->	Controller 		-> gestiona la parte logica de una escena (vista)
 									finales graficos: botones, listas, textfield	
 									gestores - contenedores: layouts: borderpane, flowlayout
 									El elemento que queramos controlar en la parte logica, debe tener un fx:id
+			FXCollections	-> Patron observer. Avisa a todos los elementos con los que se tiene relacion de los cambios producidos
+			Para poder arrancar ventana:
+				1. Stage
+				2. Scene -> FXMLoader
+				3. Asocio stage + scene
+
 
 			Para asociar parte grafica con un controller. En el nodo root, dar el atributo fx:controller
 			Dentro de los controller es recomendable poner:
@@ -18,7 +24,9 @@ JavaFX ->	Controller 		-> gestiona la parte logica de una escena (vista)
 					dentro de una interfaz me encuentro con firmas de metodos: public void nombre(String param)
 					dentro de una interfaz me encuentro con constante: public static final String nombre = "valor"
 				-> @FXML para declarar binding elementos graficos, con el id
-				-> Para asociar PULSACIONES a nodos: setOnAction()
+				-> Para asociar PULSACIONES a nodos: setOnAction(), setOnXXXXX()
+				-> Para asociar acciones indirectas a nodos: addEventFilter()
+				-> Para asociar listner a propiedades: .textProperty.addListener()
 				-> Para poder capturar el texto de un textfield -> getText()
 
 Lambda- BiFunction
@@ -53,7 +61,6 @@ Exception		-> posible fallo durante la ejecucion. No es obligatorio capturarla u
 				-> throws Exception. Indico en la firma del metodo que este puede provocar error y sera tratado en el sido donde se utilice
 
 
-
 Arrays 			-> estructura de datos con principal caracteristica, no dinamica, indexada
 				-> int[] datos = new int[2]
 				-> int[] datos = new int[]{1,2}
@@ -61,3 +68,12 @@ Arrays 			-> estructura de datos con principal caracteristica, no dinamica, inde
 				-> datos[1] -> siendo la primera posicion la 0
 				-> datos[1] = valor
 				-> for / foreach -  el primero puede modificar el segundo solo acceder a los datos
+
+
+
+JSON	-> un json es un documento/ archivo que permite estructurar los datos. Realmente es un par clave - valor. si el fichero {} -> JSONObject [] -> JSONArray
+GSON 	-> traduccion automatica de JSON a Java Java a JSON 
+
+	Client. "navegador"
+	Request. la peticion: url, header, metodo
+	Response. el json. BODY
